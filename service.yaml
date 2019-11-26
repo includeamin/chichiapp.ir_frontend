@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: chichiapp.ir
+spec:
+  selector:
+    app: chichiapp.ir
+  ports:
+  - port: 3000
+    targetPort: 3000

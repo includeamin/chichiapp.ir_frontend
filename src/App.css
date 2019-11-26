@@ -1,0 +1,163 @@
+/*.App {*/
+  /*text-align: center;*/
+/*}*/
+
+/*.App-logo {*/
+  /*height: 40vmin;*/
+/*}*/
+
+/*.App-header {*/
+  /*background-color: #282c34;*/
+  /*min-height: 100vh;*/
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
+  /*font-size: calc(10px + 2vmin);*/
+  /*color: white;*/
+/*}*/
+
+/*.App-link {*/
+  /*color: #09d3ac;*/
+/*}*/
+
+/*@import url(./../public/fonts/WebFonts/css/fontiran.css); !* لینک فایلی که وظیفه بارگذاری فونت ها را برعهده دارد *!*/
+body {
+  font-family: IRANSans !important;
+  font-weight: 300;
+  direction: rtl;
+  background-color: #E2E2E2;
+  margin: 0;
+}
+h1, h2, h3, h4, h5, h6,input, textarea {
+  font-family: IRANSans !important;
+}
+h1 {
+  font-weight: bold;
+}
+.DivImgFirst{
+  height: 60vh;
+}
+.alink{
+  list-style: none;
+  color: black;
+}
+.alink:hover{
+  padding-bottom: 3px;
+  color: #1c86db;
+  text-decoration: none;
+  border-bottom:2px solid #1c86db ;
+  transition: 0.2s;
+  /*font-weight: 600;*/
+}
+.blueColor{
+  color: #018dfc;
+}
+
+.vh-5 {
+  height: 5vh !important;
+}
+
+.vh-10 {
+  height: 10vh !important;
+}
+
+.vh-15 {
+  height: 15vh;
+}
+.vh-20{
+  height: 20vh;
+}
+.vh-25{
+  height: 25vh;
+}
+.vh-30{
+  height: 30vh;
+}.vh-40{
+  height: 40vh;
+}
+.vh-50{
+  height: 50vh;
+}
+.vh-60{
+  height: 60vh;
+}
+.vh-70{
+   height: 70vh;
+ }
+.vh-100{
+  height: 100vh;
+}
+.vh-110{
+  height: 110vh;
+}
+
+.fs-1vw{
+  font-size: 1vw !important;
+}
+.fs-13vw{
+  font-size:  calc(1.3vw + 0.5em) !important;
+}
+.padding-Right{
+  padding-right: 3vw;
+}
+.padding-Left{
+  padding-left: 3vw;
+}
+.padding-top{
+  padding-top: 6vh;
+}
+.fs-15vw{
+  font-size: 1.5vw!important;
+}
+.fs-2vw{
+  font-size:calc(2vw ) !important;
+}
+.fs-25vw{
+  font-size:calc(2.5vw ) !important;
+}
+ .img-self-cover{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+ }
+.img-self-fill{
+   width: 100%;
+   height: 100%;
+   object-fit: fill;
+ }
+.Object-fill{
+  object-fit: fill;
+}
+.Object-cover{
+  object-fit: cover;
+}
+/*.colora{*/
+  /*color: #038ffe;*/
+  /*color: #1cb2ff;*/
+/*}*/
+.InputBackGround {
+  background: #f8fcfd !important;
+  border: 0 !important;
+  height: 5vh !important;
+}
+.btn-blue-Color{
+  background: linear-gradient(90deg, rgba(28,178,255,1) 1%, rgba(3,143,254,1) 100%);
+border: 0!important;
+  border-radius: 25px!important;
+}
+.l-H-3{
+  line-height: 3vh;
+}
+.pointer{
+  cursor: pointer;
+}
+.redColor{
+    color: red!important;
+}
+.padding-Zero{
+  padding: 0!important;
+}
+.margin-Zero{
+  margin: 0!important;
+}
